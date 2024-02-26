@@ -1,13 +1,5 @@
 from random import randrange
 from utils.database_connector import db, cursor
- # `flightID` varchar(12) NOT NULL,
- # `departureDate` varchar(10) DEFAULT NULL,
- # `departureTime` time DEFAULT NULL,
- # `arrivalDate` varchar(10) DEFAULT NULL,
- # `arrivalTime` time DEFAULT NULL,
- # `capacity` varchar(15) DEFAULT NULL,
- # `routeID` int DEFAULT NULL,
- # PRIMARY KEY (`flightID`)
 
 class Flight():
 
