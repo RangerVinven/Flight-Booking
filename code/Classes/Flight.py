@@ -99,7 +99,8 @@ class Flight():
         print(results)
         
     @staticmethod
-    def deleteFlight(self, flightID):
+    def deleteFlight():
+        flightID = input("What's the flightID of the flight you want to delete: ")
         cursor.execute("DELETE FROM Flight WHERE flightID=%s;", (flightID,))
         db.commit()
 
